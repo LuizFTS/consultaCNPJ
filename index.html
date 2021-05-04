@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/L.png">
+    <!-- Font Lato -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Consultar CNPJ</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-head">
+            <h1 class="heading-primary u-padding-top-small">Consulta CNPJ</h1>
+            <br>
+            <form id="formulario">
+                <label class="form-label">Digite o CNPJ:</label>
+                <input type="text" class="form-control" id="cnpj" required placeholder="Digite aqui">
+                <input type="submit" class="btn" value="Consultar" id="consultar">
+            </form>
+            <br>
+        </div>
+        <br>
+        <ul id="dados"></ul>
+    </div>
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>
